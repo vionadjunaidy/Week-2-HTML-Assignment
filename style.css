@@ -19,7 +19,7 @@ body {
 }
 .box1 {
     display: flex;
-    background-color:#9d4ad0;
+    background-color:#ba6eea;
     margin: auto;
     text-align:left;
     height: 200px;
@@ -29,7 +29,7 @@ body {
 }
 .box2 {
     display: flex;
-    background-color:#9d4ad0;
+    background-color:#ba6eea;
     text-align: left;
     margin: auto;
     height: 200px;
@@ -39,7 +39,7 @@ body {
 }
 .box3 {
     display: flex;
-    background-color:#9d4ad0;
+    background-color:#ba6eea;
     text-align: left;
     margin: auto;
     height: 200px;
