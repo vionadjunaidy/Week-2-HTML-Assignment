@@ -19,30 +19,30 @@ body {
 }
 .box1 {
     display: flex;
-    background-color:#d188ff;
+    background-color:#9d4ad0;
     margin: auto;
     text-align:left;
-    height: 190px;
+    height: 200px;
     width: 300px;
     padding: 10px;
     border-radius: 10px;
 }
 .box2 {
     display: flex;
-    background-color:#d188ff;
+    background-color:#9d4ad0;
     text-align: left;
     margin: auto;
-    height: 190px;
+    height: 200px;
     width: 300px;
     padding: 10px;
     border-radius: 10px;
 }
 .box3 {
     display: flex;
-    background-color:#d188ff;
+    background-color:#9d4ad0;
     text-align: left;
     margin: auto;
-    height: 190px;
+    height: 200px;
     width: 300px;
     padding: 10px;
     border-radius: 10px;
