@@ -25,6 +25,7 @@ body {
     height: 190px;
     width: 300px;
     padding: 10px;
+    border-radius: 10px;
 }
 .box2 {
     display: flex;
@@ -34,6 +35,7 @@ body {
     height: 190px;
     width: 300px;
     padding: 10px;
+    border-radius: 10px;
 }
 .box3 {
     display: flex;
@@ -43,9 +45,11 @@ body {
     height: 190px;
     width: 300px;
     padding: 10px;
+    border-radius: 10px;
 }
 * {
     box-sizing: border-box;
+    border-radius: 10px;
 }
 .topnav {
     overflow: hidden;
