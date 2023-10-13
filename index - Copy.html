@@ -1,0 +1,284 @@
+<html>
+<head> 
+    <title>HCI Assignment-02</title>
+
+    <link rel="stylesheet" type="text/css" href="style - Copy.css">
+</head>
+
+<body>
+    <h1 style="text-align: center;">HCI Assignment-02</h1>
+    <div class="info">  
+    <form>
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+            <div>
+                <label for="Full Name:">Full Name: </label>
+                <input type="text" id="Full Name" placeholder="Enter full name" />
+            </div>
+            <br>
+            <div>
+            Gender:
+            <br>
+            <input type="radio" name="gender">Male
+            <br>
+            <input type="radio" name="gender">Female
+            </div>
+            <br>
+            <div class="input-box">
+                <label for="phone:">Phone Number: </label>
+                <input type="text" id="phone"placeholder="Enter phone number" />
+            </div>
+            <br>
+            <div>
+                <label for="date">Birth Date:</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <br>
+            <div class="input-box">
+                <label for="email:">E-mail: </label>
+                <input type="email" id="email" placeholder="Enter e-mail address" />
+            </div>
+            <br>
+            <div>
+                <form action="/action_page.php">
+                    <label for="province">Select your province:</label>
+                    <select name="Bangka Belitung" id="Bangka Belitung">
+                      <option value="Bengkulu">Bengkulu</option>
+                      <option value="Kepulauan Riau">Kepulauan Riau</option>
+                      <option value="Riau">Riau</option>
+                      <option value="Lampung">Lampung</option>
+                      <option value="Sumatera Barat">Sumatera Barat</option>
+                      <option value="Sumatera Selatan">Sumatera Selatan</option>
+                      <option value="Sumatera Utara">Sumatera Utara</option>
+                      <option value="DKI Jakarta">DKI Jakarta</option>
+                      <option value="Banten">Banten</option>
+                      <option value="DI Yogyakarta">DI Yogyakarta</option>
+                      <option value="Jawa Barat">Jawa Barat</option>
+                      <option value="Jawa Tengah">Jawa Tengah</option>
+                      <option value="Jawa Timur">Jawa Timur</option>
+                      <option value="Bali">Bali</option>
+                      <option value="Kalimantan Barat">Kalimantan Barat</option>
+                      <option value="Kalimantan Selatan">Kalimantan Selatan</option>
+                      <option value="Kalimantan Timur">Kalimantan Timur</option>
+                      <option value="Sulawesi Selatan">Sulawesi Selatan</option>
+                      <option value="Sulawesi Utara">Sulawesi Utara</option>
+                      <option value="Nusa Tenggra Timur (NTT)">Nusa Tenggra Timur (NTT)</option>
+                    </select>
+            </div>
+            <br>
+        </fieldset>
+    </div>
+
+<h2>Internet Packages</h2>
+<table border="5" width="900" height="350" align="center"> 
+    <tr>
+        <th>
+            Location
+        </th>
+        <th>
+            Package
+        </th>
+        <th>
+            Bandwidth
+        </th>
+        <th>
+            Prize
+        </th>
+        <th>
+            Select
+        </th>
+    </tr>
+
+    <tr>
+        <td rowspan="3">
+            Jawa, Bali, Batam, Bangka
+        </td>
+        <td>
+            Home Internet
+        </td>
+        <td>
+            Up to 30 Mbps
+        </td>
+        <td>
+            Rp 250,000/month
+        </td>
+        <td>
+            <form action="/action_page.php">
+                <input type="checkbox" id="homeinternet1"
+            name="homeinternet1" value="homeinternet1">
+                <label for="homeinternet1">  </label>
+            </form>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Home Internet + IPTV
+        </td>
+        <td>
+            Up to 100 Mbps
+        </td>
+        <td>
+            Rp 575,000/month
+        </td>
+        <td>
+            <form action="/action_page.php">
+                <input type="checkbox" id="hometv"
+            name="hometv" value="hometv">
+                <label for="hometv">  </label>
+            </form>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Home Gamers
+        </td>
+        <td>
+            Up to 250 Mbps
+        </td>
+        <td>
+            Rp 700,000/month
+        </td>
+        <td>
+            <form action="/action_page.php">
+                <input type="checkbox" id="homegamers1"
+            name="homegamers1" value="homegamers1">
+                <label for="homegamers1">  </label>
+            </form>
+        </td>
+    </tr>
+
+    <tr>
+        <td rowspan="2">
+            Sumatera and Kalimantan
+        </td>
+        <td>
+            Home Internet
+        </td>
+        <td>
+            Up to 20 Mbps
+        </td>
+        <td>
+            Rp 250,000/month
+        </td>
+        <td>
+            <form action="/action_page.php">
+                <input type="checkbox" id="homeinternet2"
+            name="homeinternet2" value="homeinternet2">
+                <label for="homeinternet2">  </label>
+            </form>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Home Gamers
+        </td>
+        <td>
+            Up to 125 Mbps
+        </td>
+        <td>
+            Rp 650,000/month
+        </td>
+        <td>
+            <form action="/action_page.php">
+                <input type="checkbox" id="homegamers2"
+            name="homegamers2" value="homegamers2">
+                <label for="homegamers2">  </label>
+            </form>
+        </td>
+    </tr>
+
+    <tr>
+        <td rowspan="2">
+            Sulawesi
+        </td>
+        <td>
+            Home Internet
+        </td>
+        <td>
+            Up to 30 Mbps
+        </td>
+        <td>
+            Rp 330,000/month
+        </td>
+        <td>
+            <form action="/action_page.php">
+                <input type="checkbox" id="homeinternet3"
+            name="homeinternet3" value="homeinternet3">
+                <label for="homeinternet3">  </label>
+            </form>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Home Gamers
+        </td>
+        <td>
+            Up to 50 Mbps
+        </td>
+        <td>
+            Rp 630,000/month
+        </td>
+        <td>
+            <form action="/action_page.php">
+                <input type="checkbox" id="homegamers3"
+            name="homegamers3" value="homegamers3">
+                <label for="homegamers3">  </label>
+            </form>
+        </td>
+    </tr>
+
+    <tr>
+        <td rowspan="2">
+            Nusa Tenggara
+        </td>
+        <td>
+            Home Internet
+        </td>
+        <td>
+            Up to 30 Mbps
+        </td>
+        <td>
+            Rp 450,000/month
+        </td>
+        <td>
+            <form action="/action_page.php">
+                <input type="checkbox" id="homeinternet4"
+            name="homeinternet4" value="homeinternet4">
+                <label for="homeinternet4">  </label>
+            </form>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Home Gamers
+        </td>
+        <td>
+            Up to 50 Mbps
+        </td>
+        <td>
+            Rp 800,000/month
+        </td>
+        <td>
+            <form action="/action_page.php">
+                <input type="checkbox" id="homegamers4"
+            name="homegamers4" value="homegamers4">
+                <label for="homegamers4">  </label>
+            </form>
+        </td>
+    </tr>
+</table>
+    </tr>
+</table>
+<br>
+<div class="submit">
+    <a href="index2 - Copy.html"> 
+        <button> SUBMIT </button>
+    </a>
+</div>
+</body>
+</html>
